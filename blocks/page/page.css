@@ -1,10 +1,20 @@
 .page {
     font-family: 'Inter';
     width: 100%;
-    max-width: 1024px;
     margin: 0 auto;
     padding: 28px 48px 24px;
     background-color: #2A2C2F;
     height: auto;
 }
 
+@media screen and (max-width: 1023px) {
+    .page {
+        padding: 28px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .page {
+        padding: 16px 16px 24px;
+    }
+}
