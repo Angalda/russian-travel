@@ -1,0 +1,21 @@
+.cover__background {
+    background-image: url(../../../images/cover-trains.jpg);
+    width: calc(100% + 96px);
+    height: 640px;
+    z-index: 1;
+    background-size: cover;
+    position: relative;
+    left: -48px;
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__background {
+        width: ;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .cover__background {
+        width: ;
+    }
+}
