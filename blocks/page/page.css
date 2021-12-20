@@ -1,26 +1,28 @@
 * {
     border: 1px solid red;
 }
+
 .page {
     font-family: 'Inter';
     font-style: normal;
-    width: calc(100% - 96px);
+    width: 100%;
     margin: 0 auto;
     padding: 28px 48px 24px;
-    background-color: #2A2C2F;
     height: auto;
+    background-color: #2A2C2F;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
     .page {
         padding: 28px 24px 24px;
-        width: calc(100% - 48px);
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 424px) {
     .page {
         padding: 16px 16px 24px;
-        width: calc(100% - 32px);
+        width: 100%;
     }
 }
