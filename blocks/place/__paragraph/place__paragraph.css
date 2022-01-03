@@ -1,5 +1,17 @@
 .place__paragraph {
-display: grid;
-grid-template-columns: 1fr;
+display: flex;
+flex-direction: column;
 gap: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+     gap: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+     padding: 0 16px;
+    }
 }

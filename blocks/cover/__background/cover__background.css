@@ -47,12 +47,13 @@
     .cover__background {
         width: 100%;
         min-height: 480px;
-      
+        margin: 90px 0 0;
     }
 }
 
 @media screen and (max-width: 424px) {
     .cover__background {
+        margin: 66px 0 0;
         width: 100%;
         min-height: 200px;
     }
